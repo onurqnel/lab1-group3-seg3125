@@ -1,0 +1,154 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Amazon Survey</title>
+  </head>
+
+  <body class="page">
+    <header class="page-header">
+      <div class ="logo">
+      <a href="https://www.amazon.ca"><img src="img/logo.png" alt="Amazon logo" class="amazon-logo"/></a>
+      <h1 class="page-title">Amazon Experience Survey</h1>
+    </header>
+
+    <main class="page-main">
+      <div id="example" class="example">
+        <p>Your opinion matters. Your feedback helps to improve your experience!</p> 
+
+         <!-- Link section -->
+        <div id="link-section" class="link-section">
+          Visit <a href="https://www.amazon.ca" class="external-link"> Amazon.ca </a> <br> <br>
+        </div>
+
+          <!--image section-->
+        <div class="images">
+          <img src="img/amazon.png" alt="Amazon front-page" class="amazon-image zoomable"/>
+          
+          <img src ="img/cart.png" alt="cart page" class ="cart">
+          <img src ="img/sign in.png" alt ="sign in page" class="sign-in"/>
+        </div>
+      
+      <p class="hint"> <b>Click the image to zoom in </b></p>   
+      </div>   
+  
+
+      <div id="form" class="form">
+        <p> Please answer the following questions: </p>
+        
+        <!-- Form 1 -->
+        <div id="form1" class="section section-form">
+          <form class="form form-text">
+            <label for="first1" class="form-label">
+              If you were to change anything about this website, what would it be?
+            </label>
+            <br /> <br>
+             <textarea id="first1" class="form-input" rows ="5" cols="60" placeholder="Your suggestion..."></textarea>
+          </form>
+        </div>
+        <br>
+
+        <!-- Form 2 -->
+        <div id="form2" class="section section-form">
+          <form class="form form-radio">
+            <label class="form-label">
+              What parts of this site need improving upon?
+            </label>
+            <br>
+            <input type="checkbox" id="visual" name="visual" value="Visual">
+            <label for="visual"> Visual </label><br>
+            <input type="checkbox" id="layout" name="layout" value="Layout">
+            <label for="layout"> Layout </label><br>
+            <input type="checkbox" id="functionality" name="functionality" value="Functionality">
+            <label for="functionality"> Functionality</label> <br>
+            <input type="checkbox" id="accessibility" name="accessibility" value="Accessibility">
+            <label for="accessibility"> Accessibility</label> 
+          </form>
+        </div>
+        <br>
+
+        <!-- Form 3 -->
+        <div id="form3" class="section section-form">
+          <form class="form form-select">
+            <label for="sign-inRate" class ="form-label">
+            Sign In Page: How easy is it to sign in and to create a new account? <br>(1: Easy, 5: Confusing)
+          </label>
+          <br>
+          <select id="cartRate" name=" cartRate" class="form-select-input">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>  
+          </form>
+        </div>
+
+        <br>
+
+        <!-- Form 4 -->
+        <div id="form4" class="section section-form">
+          <form class="form form-radio">
+            <label class="form-label">
+              What did this website do well?
+            </label>
+            <br>
+            <input type="checkbox" id="visual" name="visual" value="Visual">
+            <label for="visual"> Visual </label><br>
+            <input type="checkbox" id="layout" name="layout" value="Layout">
+            <label for="layout"> Layout </label><br>
+            <input type="checkbox" id="functionality" name="functionality" value="Functionality">
+            <label for="functionality"> Functionality</label> <br>
+            <input type="checkbox" id="accessibility" name="accessibility" value="Accessibility">
+            <label for="accessibility"> Accessibility</label> 
+          </form>
+        </div>
+        <br>
+
+        <!-- Form 5 -->
+        <div id="form5" class="section section-form">
+          <form class="form form-select">
+            <label for="cartRate" class ="form-label">
+            Shopping Cart: How easy is it to review items in the Shopping Cart page? <br>(1: Easy, 5: Confusing) 
+          </label>
+          <br>
+          <select id="cartRate" name=" cartRate" class="form-select-input">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>  
+          </form>
+        </div>
+        <br>
+
+        <!-- Form 6 -->
+        <div id="form6" class="section section-form">
+          <form class="form form-text">
+            <label for="first6" class="form-label">
+              Final comments?
+            </label>
+            <br />
+            <textarea id = "first6" class = "form-input" rows ="5"
+            cols = "30" placeholder="Write your comments here..."></textarea>
+          </form>
+        </div>
+
+        <br>
+
+        <!-- Submit -->
+        <div id="submit-section" class="section section-submit">
+          <button type="button" id="submitBtn"> Submit</button>
+        </div>
+      </div>
+    </main>
+
+    <!-- Signature -->
+     <div id="signature-section" class="signature-section">
+      Website designed by Kate Boyd, Jessy Helaleh, Onur Onel
+      <br>
+      Group 3
+     </div>
+  </body>
+</html>
