@@ -1,5 +1,4 @@
-# SEG3125 Lab1 by Group3
-
-Kate Boyd
-Jessy Helaleh
-Onur Onel 
+### LAB1 - SEG3125 Analysis and Design of User Interfaces
+- Onur Onel
+- Kate Boyd
+- Jessy Helaleh
